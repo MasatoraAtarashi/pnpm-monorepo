@@ -8,9 +8,9 @@ importers:
 
   .: {}
 
-  packages/app1: {}
+  front/packages/app1: {}
 
-  packages/qc:
+  front/packages/qc:
     dependencies:
       '@ant-design/icons':
         specifier: 5.2.6
@@ -50,7 +50,7 @@ importers:
         specifier: ^5
         version: 5.3.3
 
-  packages/shared: {}
+  front/packages/shared: {}
 
 packages:
 
