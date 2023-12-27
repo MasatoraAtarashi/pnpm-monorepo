@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  packages/app1: {}
+
+  packages/qc:
     dependencies:
       '@ant-design/icons':
         specifier: 5.2.6
@@ -23,11 +27,6 @@ importers:
       react:
         specifier: ^18
         version: 18.2.0
-
-  packages/app1: {}
-
-  packages/qc:
-    dependencies:
       shared:
         specifier: workspace:*
         version: link:../shared
